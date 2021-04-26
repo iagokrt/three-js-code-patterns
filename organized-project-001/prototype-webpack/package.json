@@ -1,0 +1,33 @@
+{
+  "name": "prototype-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack serve --mode development --env development --hot --port 3000"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "gsap": "^3.6.1",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "concurrently": "^6.0.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "glslify-loader": "^2.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^5.0.0",
+    "raw-loader": "^4.0.2",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
